@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────
+# NoyoSafe - .gitignore
+# ─────────────────────────────────────────────
+
+# Data - videos y anotaciones (no subir)
+data/videos/
+data/annotations/
+data/*.mp4
+data/*.avi
+data/*.mov
+data/*.mkv
+
+# Outputs - videos procesados (no subir)
+outputs/
+
+# Modelo YOLO descargado automáticamente
+*.pt
+
+# Entorno virtual
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# VSCode
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
