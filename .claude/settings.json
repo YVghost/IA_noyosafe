@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:universe.roboflow.com)",
+      "WebFetch(domain:ankitshah009.github.io)",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/124.0 Safari/537.36\" \"https://universe.roboflow.com/accident-detection-model/accident-detection-model\" -o /tmp/rf.html -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\" --max-time 20)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(git push *)",
+      "Bash(git add *)"
+    ]
+  }
+}
