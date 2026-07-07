@@ -1,0 +1,18 @@
+{
+  "total_events": 1,
+  "generated_at": "2026-05-28T19:06:38",
+  "video_source": "WhatsApp Video 2026-05-20 at 11.17.54.mp4",
+  "events": [
+    {
+      "timestamp": "2026-05-28T19:06:36",
+      "frame": 395,
+      "time_in_video_s": 15.8,
+      "vehicle_ids": [
+        39,
+        41
+      ],
+      "max_iou": 0.2056,
+      "video_source": "WhatsApp Video 2026-05-20 at 11.17.54.mp4"
+    }
+  ]
+}

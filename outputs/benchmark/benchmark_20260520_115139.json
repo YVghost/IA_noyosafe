@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-05-20T11:51:39",
+  "video": "video.mp4",
+  "model": "yolov8n.pt",
+  "results": {
+    "cpu": {
+      "device": "cpu",
+      "frames_processed": 179,
+      "avg_ms": 29.67,
+      "median_ms": 27.38,
+      "min_ms": 24.44,
+      "max_ms": 300.46,
+      "p95_ms": 32.62,
+      "avg_fps": 33.7,
+      "alert_latency_avg_s": 0.046,
+      "alert_latency_min_s": 0.034,
+      "alert_latency_max_s": 0.069
+    },
+    "cuda": {
+      "device": "cuda",
+      "frames_processed": 179,
+      "avg_ms": 7.98,
+      "median_ms": 5.75,
+      "min_ms": 5.09,
+      "max_ms": 390.31,
+      "p95_ms": 6.86,
+      "avg_fps": 125.4,
+      "alert_latency_avg_s": 0.046,
+      "alert_latency_min_s": 0.034,
+      "alert_latency_max_s": 0.069
+    }
+  },
+  "gpu_speedup_x": 3.72
+}

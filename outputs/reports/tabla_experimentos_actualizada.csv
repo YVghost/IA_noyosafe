@@ -1,0 +1,12 @@
+Experimento,Métrica 1,Métrica 2,Métrica 3,Notas
+"Exp. 1 – Vehículos (informe, preliminar)",Precisión: 0.87,Recall: 0.82,F1: 0.84,"CPU, dataset CADP (Informe Etapa 2, no afectado por este notebook)"
+"Exp. 2 – Accidentes (informe, preliminar)",TPR: 0.73,FPR: 0.14,F1: 0.71,Dataset CADP (Informe Etapa 2)
+Exp. 2 – Modelo normal (este notebook),TPR: 0.24,FPR: 0.19,F1: 0.32,Set de test combinado Roboflow + CADP
+Exp. 2 – Modelo entrenado (este notebook),TPR: 0.98,FPR: 0.35,F1: 0.80,Set de test combinado Roboflow + CADP
+Exp. 4 – baseline (modelo normal / entrenado),TPR: 0.22 / 0.98,FPR: 0.20 / 0.36,F1: 0.30 / 0.79,Muestra de 150 imágenes de test
+Exp. 4 – night (modelo normal / entrenado),TPR: 0.21 / 0.98,FPR: 0.21 / 0.23,F1: 0.28 / 0.86,Muestra de 150 imágenes de test
+Exp. 4 – rain_day (modelo normal / entrenado),TPR: 0.17 / 1.00,FPR: 0.21 / 0.38,F1: 0.24 / 0.79,Muestra de 150 imágenes de test
+Exp. 4 – heavy_fog (modelo normal / entrenado),TPR: 0.24 / 0.98,FPR: 0.21 / 0.26,F1: 0.31 / 0.84,Muestra de 150 imágenes de test
+Exp. 4 – low_light (modelo normal / entrenado),TPR: 0.19 / 1.00,FPR: 0.20 / 0.28,F1: 0.26 / 0.84,Muestra de 150 imágenes de test
+Exp. 4 – rain (modelo normal / entrenado),TPR: 0.17 / 1.00,FPR: 0.23 / 0.36,F1: 0.23 / 0.80,Muestra de 150 imágenes de test
+Exp. 4 – fog (modelo normal / entrenado),TPR: 0.22 / 0.98,FPR: 0.22 / 0.30,F1: 0.29 / 0.82,Muestra de 150 imágenes de test

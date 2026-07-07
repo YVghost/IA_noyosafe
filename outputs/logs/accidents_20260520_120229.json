@@ -1,0 +1,29 @@
+{
+  "total_events": 2,
+  "generated_at": "2026-05-20T12:02:29",
+  "video_source": "test_far.mp4",
+  "events": [
+    {
+      "timestamp": "2026-05-20T12:02:26",
+      "frame": 107,
+      "time_in_video_s": 3.69,
+      "vehicle_ids": [
+        1,
+        5
+      ],
+      "max_iou": 0.1167,
+      "video_source": "test_far.mp4"
+    },
+    {
+      "timestamp": "2026-05-20T12:02:29",
+      "frame": 287,
+      "time_in_video_s": 9.9,
+      "vehicle_ids": [
+        19,
+        25
+      ],
+      "max_iou": 0.5335,
+      "video_source": "test_far.mp4"
+    }
+  ]
+}
