@@ -1,41 +1,28 @@
 # ─────────────────────────────────────────────
 # NoyoSafe - .gitignore
+# Se sube todo (data/, outputs/, modelos .pt) salvo cache y entorno local.
 # ─────────────────────────────────────────────
 
-# Data - videos y anotaciones (no subir)
-data/videos/
-data/annotations/
-data/*.mp4
-data/*.avi
-data/*.mov
-data/*.mkv
-
-# Outputs - videos procesados (no subir)
-outputs/
-
-# Modelo YOLO descargado automáticamente
-*.pt
-
-# Entorno virtual
+# Entorno virtual (se reconstruye con requirements.txt, no se versiona)
 venv/
 env/
 
-# Python
+# Cache de Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 
-# VSCode
+# Cache de Jupyter
+.ipynb_checkpoints/
+
+# Cache de labels de Ultralytics (se regenera solo al entrenar/validar)
+*.cache
+
+# VSCode (config local del editor)
 .vscode/
 
 # Windows
 Thumbs.db
 Desktop.ini
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Logs
-*.log
