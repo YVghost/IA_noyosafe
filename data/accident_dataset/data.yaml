@@ -1,0 +1,6 @@
+path: C:/Users/dddma/OneDrive/Escritorio/Codigos_repors/IA_noyosafe/data/accident_dataset
+train: train/images
+val: val/images
+test: test/images
+names:
+  0: accident
